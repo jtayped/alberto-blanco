@@ -11,7 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased pt-6`}>{children}</body>
+      <body className={`${inter.className} antialiased pt-6 flex justify-center`}>
+        <div className="max-w-screen-md">{children}</div>
+      </body>
     </html>
   );
 }
