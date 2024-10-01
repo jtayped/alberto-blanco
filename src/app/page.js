@@ -9,7 +9,7 @@ import { LayoutGroup } from "framer-motion";
 import Scroll from "@/components/ui/scroll";
 
 export default function Home() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   return (
     <>
