@@ -20,7 +20,7 @@ const Header = () => {
         transition={{ delay: 0.25, type: "spring" }}
       >
         <h1 className="text-3xl md:text-5xl font-extrabold">Alberto Blanco</h1>
-        <p className="font-semibold mt-1.5 text-sm md:text-md">
+        <p className="font-semibold mt-1.5 text-sm md:text-lg">
           Lorem ipsum dolor sit amet.
         </p>
         <p className="text-sm md:text-md text-muted-foreground mt-0.5">
