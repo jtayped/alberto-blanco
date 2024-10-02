@@ -58,6 +58,9 @@ module.exports = {
       padding: {
         width: "1.25rem",
       },
+      aspectRatio: {
+        phone: "12 / 16",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

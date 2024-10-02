@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <div className="px-width grid grid-cols-5 items-end">
-      <div className="h-52 col-span-2">
+    <div className="px-width flex items-end">
+      <div className="h-52 md:h-64 aspect-phone">
         <motion.img
           className="object-cover w-full h-full shadow-sm brightness-75 dark:brightness-[60%]"
-          src="/gallery/1.jpg"
+          src="/gallery/1.webp"
           layoutId="main-img"
           alt="Alberto Blanco"
         />
       </div>
       <motion.article
-        className="col-span-3 -ml-8 pb-4 drop-shadow-sm"
+        className="-ml-8 pb-4 drop-shadow-sm"
         initial={{ x: -35, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: 0.25, type: "spring" }}

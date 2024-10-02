@@ -33,7 +33,7 @@ const Loader = ({ setLoading }) => {
         animate={{ y: 0, opacity: 1 }}
       >
         <motion.img
-          src="/gallery/1.jpg"
+          src="/gallery/1.webp"
           layoutId="main-img"
           alt="Alberto Blanco"
         />
