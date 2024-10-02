@@ -28,7 +28,7 @@ const Loader = ({ setLoading }) => {
   return (
     <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-background">
       <motion.div
-        className="grid w-2/3"
+        className="grid w-2/3 md:max-w-[300px]"
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >

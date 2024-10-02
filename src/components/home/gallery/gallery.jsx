@@ -9,6 +9,7 @@ const ImageComponent = ({ isInView, ...props }) => {
       initial={{ opacity: 0, y: 25 }}
       whileInView={isInView ? { opacity: 1, y: 0 } : {}}
       viewport={{ once: true, amount: 0.75 }}
+      whileHover={{ scale: 1.1, rotate: 3, y: -5 }}
     >
       <Image
         className="w-full h-full object-cover object-center shadow"

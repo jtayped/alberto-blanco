@@ -8,8 +8,13 @@ const LinkComponent = ({ data, idx }) => {
     <Link href={data.href} aria-label={`Enlace a ${data.text}`}>
       <motion.div
         initial={{ y: -40, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: idx * delay + 0.25 }}
+        animate={{
+          y: 0,
+          opacity: 1,
+          transition: { delay: idx * delay + 0.25 },
+        }}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.9 }}
         className="relative flex items-center gap-2 p-4 text-sm border pl-5 bg-background overflow-hidden"
       >
         <motion.div
