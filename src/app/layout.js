@@ -6,17 +6,17 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   // Basic metadata
   title: "Alberto Blanco",
-  description: "#TODO <=160 chars",
+  description: "Lorem ipsum dolor sit amet.", // TODO: <=160 CHAR
 
   // Open Graph (OG) metadata for social media sharing
   openGraph: {
-    title: "Alberto blanco",
-    description: "TODO <=100",
-    url: "#TODO add domain",
+    title: "Alberto Blanco",
+    description: "Lorem ipsum dolor sit amet.", // TODO: <=120 CHAR
+    url: "https://albertoblanco.vercel.app/", // TODO: change domain
     siteName: "Alberto Blanco",
     images: [
       {
-        url: "/twitter-card.webp",
+        url: "https://albertoblanco.vercel.app/twitter-card.webp",
         width: 1200,
         height: 675,
         alt: "Alberto Blanco",
@@ -30,8 +30,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image", // or 'summary'
     title: "Alberto Blanco",
-    description: "TODO <=100 chars",
-    images: ["TODO.COM/twitter-card.webp"],
+    description: "Lorem ipsum dolor sit amet.", // TODO: <=100 chars
+    images: ["https://albertoblanco.vercel.app//twitter-card.webp"],
     site: "@AlbertoBlancoX",
   },
 
@@ -53,14 +53,14 @@ export const metadata = {
       "@context": "https://schema.org",
       "@type": "WebSite",
       name: "Alberto Blanco",
-      url: "#TODO add domain",
+      url: "https://albertoblanco.vercel.app/",
     }),
   },
 
   // Additional meta tags (custom)
   other: {
     'meta[name="author"]': "Joel Taylor",
-    'meta[name="keywords"]': "#TODO add keywords",
+    'meta[name="keywords"]': "Alberto, Blanco, actor",
   },
 };
 
