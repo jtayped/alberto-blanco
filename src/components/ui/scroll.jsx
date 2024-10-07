@@ -35,7 +35,7 @@ const Scroll = () => {
           className="fixed bottom-6 left-1/2 grid justify-items-center text-sm gap-3 w-max"
         >
           <IoChevronDown size={25} className="animate-bounce" />
-          Desliza
+          Scroll
         </motion.div>
       )}
     </AnimatePresence>
