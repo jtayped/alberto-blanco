@@ -1,8 +1,4 @@
-import Image from "next/image";
-import ManyVidsIcon from "@/../public/icons/manyvids.svg";
-import FanvueIcon from "@/../public/icons/fanvue.svg";
-import { FiInstagram, FiFacebook, FiTwitch, FiTwitter } from "react-icons/fi";
-import { SiOnlyfans, SiInstagram, SiX, SiTelegram } from "react-icons/si";
+import { SiOnlyfans, SiX, SiTelegram } from "react-icons/si";
 import { RiInstagramFill } from "react-icons/ri";
 import Fanvue from "@/components/icons/fanvue";
 import Manvids from "@/components/icons/manyvids";

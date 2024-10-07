@@ -9,7 +9,7 @@ const ImageComponent = ({ isInView, ...props }) => {
       initial={{ opacity: 0, y: 25 }}
       whileInView={isInView ? { opacity: 1, y: 0 } : {}}
       viewport={{ once: true, amount: 0.5 }}
-      whileHover={{ scale: 1.1, rotate: 3, y: -5 }}
+      whileHover={{ scale: 1.075, rotate: 2, y: -3 }}
       className="w-full h-full"
     >
       <Image
@@ -27,10 +27,9 @@ const Gallery = () => {
   return (
     <div className="px-width" ref={sectionRef}>
       <div className="max-w-md">
-        <h2 className="text-xl md:text-3xl font-semibold">Galería</h2>
+        <h2 className="text-xl md:text-3xl font-semibold">Gallery</h2>
         <p className="text-sm md:text-md text-muted-foreground md:mt-1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-          minima dolores quia cumque amet ducimus.
+          This is just a small preview of what I can offer you.
         </p>
       </div>
       <ul className="grid md:grid-cols-2 gap-3 mt-4 md:mt-6">

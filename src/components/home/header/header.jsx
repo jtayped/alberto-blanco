@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -21,14 +22,16 @@ const Header = () => {
       >
         <h1 className="text-3xl md:text-5xl font-extrabold">Alberto Blanco</h1>
         <p className="font-semibold mt-1.5 text-sm md:text-lg">
-          Lorem ipsum dolor sit amet.
+          Adult male performer
         </p>
-        <p className="text-sm md:text-md text-muted-foreground mt-0.5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-          sed?
-        </p>
-        <Button size="sm" className="mt-1">
-          Contact me
+        {/* Further Description
+          <p className="text-sm md:text-md text-muted-foreground mt-0.5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+            sed?
+          </p>
+        */}
+        <Button size="sm" className="mt-1" asChild>
+          <Link href="mailto:contacttodoit1@gmail.com">Contact me</Link>
         </Button>
       </motion.article>
     </div>

@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Providers from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -70,7 +71,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className} antialiased pt-6 flex justify-center`}
       >
-        <div className="max-w-screen-md">{children}</div>
+        <Providers>
+          <div className="relative max-w-screen-md">{children}</div>
+        </Providers>
       </body>
     </html>
   );

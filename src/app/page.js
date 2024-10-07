@@ -7,6 +7,7 @@ import Loader from "@/components/home/loader/loader";
 import { useState } from "react";
 import { LayoutGroup } from "framer-motion";
 import Scroll from "@/components/ui/scroll";
+import DarkMode from "@/components/ui/darkmode";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -19,6 +20,7 @@ export default function Home() {
         </LayoutGroup>
       ) : (
         <>
+          <DarkMode className="fixed top-5 right-5 z-50" />
           <main className="grid gap-6 pb-10">
             <header>
               <LayoutGroup>

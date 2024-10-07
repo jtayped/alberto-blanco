@@ -1,27 +1,24 @@
 const services = [
   {
-    title: "This is a title",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "CUSTOM VIDEOS",
+    description:
+      "Do you have a fantasy? I can make it come true in an exclusive video for you.",
     image: "/gallery/2.webp",
-    href: "https://google.com",
+    href: "mailto:contacttodoit1@gmail.com",
   },
   {
-    title: "This is a title",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "CASTING",
+    description:
+      "If you're interested instarting your journey to becoming an adult content star by filming with me, don't hesitate to reach out! 📸",
     image: "/gallery/3.webp",
-    href: "https://google.com",
+    href: "mailto:contacttodoit1@gmail.com",
   },
   {
-    title: "This is a title",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-    image: "/gallery/4.webp",
-    href: "https://google.com",
-  },
-  {
-    title: "This is a title",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-    image: "/gallery/5.webp",
-    href: "https://google.com",
+    title: "PARTNERSHIPS",
+    description:
+      "I'm looking for someone to create adult content with. Let's record together.",
+    image: "/gallery/3.webp",
+    href: "mailto:contacttodoit1@gmail.com",
   },
 ];
 
