@@ -43,7 +43,7 @@ const Loader = ({ setLoading }) => {
             animate={{ width: `${percentage}%` }}
             transition={{ duration: 0.3 }}
           />
-          <p className="text-lg text-background font-semibold filter invert mix-blend-difference">
+          <p className="text-lg dark:text-background font-semibold filter invert mix-blend-difference">
             {Math.floor(percentage)}%
           </p>
         </div>
