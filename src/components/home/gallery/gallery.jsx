@@ -32,7 +32,7 @@ const Gallery = () => {
           This is just a small preview of what I can offer you.
         </p>
       </div>
-      <ul className="grid md:grid-cols-2 gap-3 mt-4 md:mt-6">
+      <div className="grid md:grid-cols-2 gap-3 mt-4 md:mt-6">
         <div className="grid grid-cols-2 gap-3 md:h-[320px]">
           <div className="grid grid-rows-2 gap-3 h-[320px] md:h-auto">
             <ImageComponent
@@ -40,14 +40,14 @@ const Gallery = () => {
               width={200}
               height={200}
               isInView={isInView}
-              alt="Imagen de Alberto Blanco 1"
+              alt="Alberto Blanco photo 1"
             />
             <ImageComponent
               src={gallery[1]}
               width={200}
               height={200}
               isInView={isInView}
-              alt="Imagen de Alberto Blanco 2"
+              alt="Alberto Blanco photo 2"
             />
           </div>
           <ImageComponent
@@ -55,7 +55,7 @@ const Gallery = () => {
             width={200}
             height={500}
             isInView={isInView}
-            alt="Imagen de Alberto Blanco 3"
+            alt="Alberto Blanco photo 3"
           />
         </div>
         <div className="max-h-60 md:max-h-max">
@@ -64,10 +64,10 @@ const Gallery = () => {
             width={200}
             height={500}
             isInView={isInView}
-            alt="Imagen de Alberto Blanco 4"
+            alt="Alberto Blanco photo 4"
           />
         </div>
-      </ul>
+      </div>
     </div>
   );
 };

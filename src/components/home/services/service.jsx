@@ -29,7 +29,7 @@ const Service = ({ data }) => {
             src={data.image}
             width={200}
             height={400}
-            alt="Imagen del servicio"
+            alt="Service image"
           />
         </motion.div>
 
@@ -55,7 +55,11 @@ const Service = ({ data }) => {
             animate={isInView && { y: 0 }}
             whileHover={{ scale: 1.1 }}
           >
-            <Button variant="default" className="w-10 h-10 p-2 text-white">
+            <Button
+              aria-label={`Access ${data.title} service`}
+              variant="default"
+              className="w-10 h-10 p-2 text-white"
+            >
               <FiChevronRight size={25} />
             </Button>
           </motion.div>

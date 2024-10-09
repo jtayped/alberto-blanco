@@ -21,7 +21,11 @@ const DarkMode = ({ className = "" }) => {
   if (!mount) return;
 
   return (
-    <button className={cn(className, "brightness-75")} onClick={toggleTheme}>
+    <button
+      className={cn(className, "brightness-75")}
+      onClick={toggleTheme}
+      aria-label="Toggle dark mode"
+    >
       <FiSun className="hidden dark:block" size={20} />
       <FiMoon className="block dark:hidden" size={20} />
     </button>

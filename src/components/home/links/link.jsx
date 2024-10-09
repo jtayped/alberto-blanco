@@ -5,7 +5,7 @@ import Link from "next/link";
 const delay = 0.075;
 const LinkComponent = ({ data, idx }) => {
   return (
-    <Link href={data.href} aria-label={`Enlace a ${data.text}`}>
+    <Link href={data.href} aria-label={`Link to ${data.text}`}>
       <motion.div
         initial={{ y: -40, opacity: 0 }}
         animate={{
