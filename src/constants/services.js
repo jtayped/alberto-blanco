@@ -4,7 +4,7 @@ const services = [
     description:
       "Do you have a fantasy? I can make it come true in an exclusive video for you.",
     image: "/gallery/2.webp",
-    href: "mailto:contacttodoit1@gmail.com",
+    href: "mailto:privatearea777@gmail.com",
   },
   {
     title: "CASTING",
@@ -17,7 +17,7 @@ const services = [
     title: "PARTNERSHIPS",
     description:
       "I'm looking for someone to create adult content with. Let's record together.",
-    image: "/gallery/3.webp",
+    image: "/gallery/8.webp",
     href: "mailto:contacttodoit1@gmail.com",
   },
 ];
