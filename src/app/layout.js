@@ -7,32 +7,32 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   // Basic metadata
   title: "Alberto Blanco",
-  description: "Lorem ipsum dolor sit amet.", // TODO: <=160 CHAR
+  description: "Adult male performer.",
 
   // Open Graph (OG) metadata for social media sharing
   openGraph: {
     title: "Alberto Blanco",
-    description: "Lorem ipsum dolor sit amet.", // TODO: <=120 CHAR
-    url: "https://albertoblanco.vercel.app/", // TODO: change domain
+    description: "Adult male performer.",
+    url: "https://xblanco.es/",
     siteName: "Alberto Blanco",
     images: [
       {
-        url: "https://albertoblanco.vercel.app/twitter-card.webp",
+        url: "https://xblanco.es/twitter-card.webp",
         width: 1200,
         height: 675,
         alt: "Alberto Blanco",
       },
     ],
-    locale: "es_ES",
+    locale: "en_US",
     type: "website",
   },
 
   // Twitter Card metadata
   twitter: {
-    card: "summary_large_image", // or 'summary'
+    card: "summary_large_image",
     title: "Alberto Blanco",
-    description: "Lorem ipsum dolor sit amet.", // TODO: <=100 chars
-    images: ["https://albertoblanco.vercel.app//twitter-card.webp"],
+    description: "Adult male performer.",
+    images: ["https://xblanco.es//twitter-card.webp"],
     site: "@AlbertoBlancoX",
   },
 
@@ -54,7 +54,7 @@ export const metadata = {
       "@context": "https://schema.org",
       "@type": "WebSite",
       name: "Alberto Blanco",
-      url: "https://albertoblanco.vercel.app/",
+      url: "https://xblanco.es/",
     }),
   },
 
