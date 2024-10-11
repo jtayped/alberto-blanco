@@ -11,7 +11,7 @@ const LinkComponent = ({ data, idx }) => {
         animate={{
           y: 0,
           opacity: 1,
-          transition: { delay: idx * delay + 0.25 },
+          transition: { delay: idx * delay },
         }}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}

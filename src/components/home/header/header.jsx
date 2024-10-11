@@ -6,19 +6,21 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className="px-width flex items-end">
-      <div className="h-52 md:h-64 aspect-phone">
-        <motion.img
+      <motion.div
+        className="h-52 md:h-64 aspect-phone"
+        initial={{ y: 30, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+      >
+        <img
           className="object-cover w-full h-full shadow-sm brightness-75 dark:brightness-[60%]"
           src="/gallery/1.webp"
-          layoutId="main-img"
           alt="Alberto Blanco"
         />
-      </div>
+      </motion.div>
       <motion.article
         className="-ml-8 pb-4 drop-shadow-sm"
         initial={{ x: -35, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
-        transition={{ delay: 0.25, type: "spring" }}
       >
         <h1 className="text-3xl md:text-5xl font-extrabold">Alberto Blanco</h1>
         <p className="font-semibold mt-1.5 text-sm md:text-lg">
