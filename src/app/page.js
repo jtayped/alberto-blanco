@@ -15,9 +15,7 @@ export default function Home() {
       <DarkMode className="fixed top-5 right-5 z-50" />
       <main className="grid gap-6 pb-10">
         <header>
-          <LayoutGroup>
             <Header />
-          </LayoutGroup>
         </header>
         <section id="links">
           <Links />
