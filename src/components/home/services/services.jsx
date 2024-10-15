@@ -18,7 +18,9 @@ const Services = () => {
         {services.map((s, i) => (
           <li
             key={i}
-            className={i === services.length - 1 && "col-span-1 md:col-span-2"}
+            className={
+              i === services.length - 1 ? "col-span-1 md:col-span-2" : undefined
+            }
           >
             <Service data={s} />
           </li>
