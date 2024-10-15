@@ -14,6 +14,7 @@ const ImageComponent = ({ isInView, ...props }) => {
     >
       <Image
         className="w-full h-full object-cover object-center shadow"
+        unoptimized
         {...props}
       />
     </motion.div>
