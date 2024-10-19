@@ -1,6 +1,5 @@
 import { SiOnlyfans, SiX, SiTelegram } from "react-icons/si";
 import { RiInstagramFill } from "react-icons/ri";
-import Fanvue from "@/components/icons/fanvue";
 import Manvids from "@/components/icons/manyvids";
 
 const iconSize = 20;
@@ -16,12 +15,6 @@ const links = [
     secondaryText: "@albertoblanco",
     icon: <Manvids size={iconSize} />,
     href: "https://www.manyvids.com/Profile/1008729346/albertoblanco/Store/Videos",
-  },
-  {
-    text: "Fanvue",
-    secondaryText: "@albertoblanco23",
-    icon: <Fanvue size={iconSize} />,
-    href: "https://www.fanvue.com/albertoblanco23",
   },
   {
     text: "Instagram",
