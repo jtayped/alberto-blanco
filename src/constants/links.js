@@ -36,31 +36,4 @@ const links = [
   },
 ];
 
-//const links = [
-//  {
-//    text: "Instagram",
-//    secondaryText: "@jtayped_",
-//    icon: <FiInstagram size={iconSize} />,
-//    href: "",
-//  },
-//  {
-//    text: "Facebook",
-//    secondaryText: "@jtayped_",
-//    icon: <FiFacebook size={iconSize} />,
-//    href: "",
-//  },
-//  {
-//    text: "Twitch",
-//    secondaryText: "@jtayped_",
-//    icon: <FiTwitch size={iconSize} />,
-//    href: "",
-//  },
-//  {
-//    text: "Twitter",
-//    secondaryText: "@jtayped_",
-//    icon: <FiTwitter size={iconSize} />,
-//    href: "",
-//  },
-//];
-
 export default links;
