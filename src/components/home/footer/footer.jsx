@@ -3,9 +3,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="px-width">
+    <footer className="px-width">
       <Copyright />
-    </div>
+    </footer>
   );
 };
 
