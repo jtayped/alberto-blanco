@@ -1,4 +1,4 @@
-import { SiOnlyfans, SiX, SiTelegram } from "react-icons/si";
+import { SiOnlyfans, SiX, SiTelegram, SiFacebook } from "react-icons/si";
 import { RiInstagramFill } from "react-icons/ri";
 import Manvids from "@/components/icons/manyvids";
 
@@ -33,6 +33,12 @@ const links = [
     secondaryText: "@Albertoblancox",
     icon: <SiTelegram size={iconSize} />,
     href: "https://t.me/+Clk5dJg__lhlMTg0",
+  },
+  {
+    text: "Facebook",
+    secondaryText: "@XAlbertoblanco",
+    icon: <SiFacebook size={iconSize} />,
+    href: "https://www.facebook.com/XAlbertoblanco",
   },
 ];
 
